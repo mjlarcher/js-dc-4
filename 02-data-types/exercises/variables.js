@@ -21,17 +21,17 @@
 // A. Declaring a variable
 // var myFirstVariable
 
-// B. Assigning a value to a variable
+// // B. Assigning a value to a variable
 // myFirstVariable = 'Hello World'
 
-// Combined:
+// // Combined:
 // var mySecondVariable = 'Hello Moon'
 
 
 
-//
-// 2. Invoking/Calling our variables
-//
+// //
+// // 2. Invoking/Calling our variables
+// //
 // console.log( myFirstVariable ) // => 'Hello World'
 
 
@@ -39,8 +39,8 @@
 //
 //3. Checking type with typeof()
 //
-// var a = 1
-// console.log( typeof( a ) ) // => 'number'
+var a = 1
+console.log( typeof( a ) ) // => 'number'
 
 // var b = 'hey'
 // console.log( typeof( b ) ) // => 'string'
@@ -56,16 +56,20 @@
 //
 //4. Type conversion
 //
-// var e = 5
-// console.log( typeof( e ) ) // => 'number'
-// e = e.toString()
-// console.log( typeof( e ) ) // => 'string'
-// e = parseInt(e)
-// console.log( typeof( e ) ) // => 'number'
-// e = e + '0'
-// console.log( typeof( e ), e ) // => 'string' 50
-// e = undefined
-// console.log( typeof( e ) ) // => 'undefined'
+var e = 5
+console.log( typeof( e ) ) // => 'number'
+
+e = e.toString()
+console.log( typeof( e ) ) // => 'string'
+
+e = parseInt(e)
+console.log( typeof( e ) ) // => 'number'
+
+e = e + '0'
+console.log( typeof( e ), e ) // => 'string' 50
+
+e = undefined
+console.log( typeof( e ) ) // => 'undefined'
 
 
 //
